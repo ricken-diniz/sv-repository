@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nome {
+    font-family: cursive;
+    font-size: 70px;
+    height: 80px;
+    width: auto;
+    color: red;
+    background-color: blue;
+    border-radius: 7px;
+    position: relative;
+    padding: 10px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corpo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 400px;
+    height: auto;
+    background-color: #0b0b0d;
+    border: 2px solid #0b0b0d;
+    border-radius: 3px;
+    position: relative;
+}
+
+.digito {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 20px;
+    background-color: #85e6c0;
+    position: relative;
+    margin: 0.5px;
+}
+
+.digito:hover {
+    cursor: pointer;
+    opacity: 0.92;
+}
+
+#mais {
+    height: auto;
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: style="background-color: #6bb39b;";
+}
+
+#igual {
+    height: auto;
+    grid-column-start: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    background-color: #daf3ea;
+}
+
+#zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#caixa {
+    height: 60px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #f7f4e8;
+    margin: 0.5px;
+    font-size: 25px;
+    font-family: fantasy;
+    padding: 0 10px 0 10px;
+}

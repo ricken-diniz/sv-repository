@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CRD's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="nome">CRD'S CALCULATOR</div>
+    <div class="corpo">
+        <input value="" id="caixa"></input>
+        <div class="digito" onclick="digito(' / ')">/</div>
+        <div class="digito" onclick="digito(' * ')">*</div>
+        <div class="digito" onclick="digito(' - ')">-</div>
+        <div style="background-color: #6bb39b;" class="digito" onclick="limpar()">C</div>
+        <div class="digito" onclick="digito('7')">7</div>
+        <div class="digito" onclick="digito('8')">8</div>
+        <div class="digito" onclick="digito('9')">9</div>
+        <div style="background-color: #6bb39b;" id="mais" class="digito" onclick="digito(' + ')">+</div>
+        <div class="digito" onclick="digito('4')">4</div>
+        <div class="digito" onclick="digito('5')">5</div>
+        <div class="digito" onclick="digito('6')">6</div>
+        <div class="digito" onclick="digito('1')">1</div>
+        <div class="digito" onclick="digito('2')">2</div>
+        <div class="digito" onclick="digito('3')">3</div>
+        <div id="igual" class="digito" onclick="igual()">=</div>
+        <div id="zero" class="digito" onclick="digito('0')">0</div>
+        <div style="background-color: #7bd7b2;" class="digito">,</div>
+    </div>
+</body>
+
+</html>
